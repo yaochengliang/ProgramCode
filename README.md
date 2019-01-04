@@ -28,3 +28,8 @@ FindKthToTail：输入一个链表，输出该链表中倒数第k个结点。
 ReverseList：输入一个链表，反转链表后，输出新链表的表头。
 
 MergeList：输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
+
+
+Leetcode
+
+MinTreeDepth:Given a binary tree, find its minimum depth.The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.

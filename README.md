@@ -35,3 +35,5 @@ Leetcode
 MinTreeDepth:Given a binary tree, find its minimum depth.The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 
 EvalRPN：Evaluate the value of an arithmetic expression in Reverse Polish Notation.Valid operators are+,-,*,/. Each operand may be an integer or another expression.
+
+MaxPoints：Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.

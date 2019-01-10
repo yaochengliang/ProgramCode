@@ -43,3 +43,5 @@ SortList：Sort a linked list in O(n log n) time using constant space complexity
 InsertionSortList：Sort a linked list in O(n log n) time using constant space complexity.
 
 PostorderTraversal：Sort a linked list in O(n log n) time using constant space complexity.
+
+preorderTraversal：Given a binary tree, return the preorder traversal of its nodes' values.

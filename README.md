@@ -49,3 +49,5 @@ PreorderTraversal：Given a binary tree, return the preorder traversal of its no
 ReorderList：Given a singly linked list L: L 0→L 1→…→L n-1→L n,reorder it to: L 0→L n →L 1→L n-1→L 2→L n-2→…
 
 TwoSum：Given an array of integers, find two numbers such that they add up to a specific target number.
+
+DetectCycle：Given a linked list, return the node where the cycle begins. If there is no cycle, returnnull.

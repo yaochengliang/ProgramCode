@@ -51,3 +51,5 @@ ReorderList：Given a singly linked list L: L 0→L 1→…→L n-1→L n,reorde
 TwoSum：Given an array of integers, find two numbers such that they add up to a specific target number.
 
 DetectCycle：Given a linked list, return the node where the cycle begins. If there is no cycle, returnnull.
+
+HasCycle：Given a linked list, determine if it has a cycle in it.

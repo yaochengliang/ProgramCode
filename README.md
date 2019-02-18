@@ -53,3 +53,8 @@ TwoSum：Given an array of integers, find two numbers such that they add up to a
 DetectCycle：Given a linked list, return the node where the cycle begins. If there is no cycle, returnnull.
 
 HasCycle：Given a linked list, determine if it has a cycle in it.
+
+
+real：校招真题
+
+Wangyi01：独立的小易

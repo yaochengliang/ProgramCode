@@ -62,3 +62,5 @@ Wangyi01：独立的小易
 Aiqiyi01：判断题
 
 Aiqiyi02：排序
+
+Aiqiyi03：判断重复字符

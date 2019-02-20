@@ -64,3 +64,5 @@ Aiqiyi01：判断题
 Aiqiyi02：排序
 
 Aiqiyi03：判断重复字符
+
+Tencent：数字转换机

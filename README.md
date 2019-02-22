@@ -72,3 +72,5 @@ Beike01：斐波那契数列
 Pinduoduo01：最大乘积
 
 Pinduoduo02：大整数相乘
+
+Huanjushidai01：判断重复字符串最大长度

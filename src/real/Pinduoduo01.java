@@ -17,7 +17,31 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Pinduoduo01 {
-    public static void main(String args[]){
+    public static void main(String args[]){//方法1，先排序最后判断 最大*次大*第三大 和 最大*最小*次小
+//        Scanner in = new Scanner(System.in);
+//        int n = Integer.parseInt(in.nextLine());
+//        String line = in.nextLine();
+////        int n = 61;
+////        String line = "3472 -7098 -9281 7789 7955 6101 5051 7778 3090 7423 -7151 5652 1595 -8094 677 -8324 8347 -2482 9313 -9338 -3157 8559 6945 3618 3087 121 -8468 3225 1356 6939 2799 -7231 -6309 -5453 633 -8689 -4776 2714 -2743 -1409 5918 -3333 1803 8330 -2206 -6117 -4486 -7903 -4375 -3739 2897 8056 -5864 -522 7451 -4541 -2813 5790 -532 -6517 925";
+//        String[] arrs = line.split(" ");
+//        long[] arrays = new long[n];
+//        for (int i=0; i<n; i++){
+//            arrays[i] = Long.parseLong(arrs[i]);
+//        }
+//
+//        Arrays.sort(arrays);
+//
+//        long r1 = arrays[n-1]*arrays[n-2]*arrays[n-3];
+//        long r2 = arrays[0]*arrays[1]*arrays[n-1];
+//        if (r1 > r2){
+//            System.out.println(r1);
+//        } else {
+//            System.out.println(r2);
+        m2();
+//        }
+    }
+
+    public static void m2(){ //方法2 直接遍历数组 找到 最大 次大 第三大 次小 最小
         Scanner in = new Scanner(System.in);
         int n = Integer.parseInt(in.nextLine());
         String line = in.nextLine();
@@ -29,10 +53,34 @@ public class Pinduoduo01 {
             arrays[i] = Long.parseLong(arrs[i]);
         }
 
-        Arrays.sort(arrays);
+        long max = Long.MIN_VALUE;
+        long second = Long.MIN_VALUE;
+        long third = Long.MIN_VALUE;
+        long min = Long.MAX_VALUE;
+        long secmin = Long.MAX_VALUE;
 
-        long r1 = arrays[n-1]*arrays[n-2]*arrays[n-3];
-        long r2 = arrays[0]*arrays[1]*arrays[n-1];
+        for (int i=0; i<n; i++){
+            if (arrays[i] > max){
+                third = second;
+                second = max;
+                max = arrays[i];
+            } else if (arrays[i] > second){
+                third = second;
+                second = arrays[i];
+            } else if (arrays[i] > third){
+                third = arrays[i];
+            }
+
+            if (arrays[i] < min){
+                secmin = min;
+                min = arrays[i];
+            } else if (arrays[i] < secmin){
+                secmin = arrays[i];
+            }
+        }
+
+        long r1 = max*second*third;
+        long r2 = max*secmin*min;
         if (r1 > r2){
             System.out.println(r1);
         } else {

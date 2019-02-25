@@ -80,3 +80,7 @@ Tuniu01：判断两个字符串的最大相同长度
 Kugou01：买橙子
 
 Xunlei01：2的N次方
+
+Xunlei02：整数求和
+
+Xunlei03：整数反转

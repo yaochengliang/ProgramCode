@@ -84,3 +84,5 @@ Xunlei01：2的N次方
 Xunlei02：整数求和
 
 Xunlei03：整数反转
+
+Xunlei04：区间合并

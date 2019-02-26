@@ -59,6 +59,8 @@ real：校招真题
 
 Wangyi01：独立的小易
 
+Wangyi02：等差数列
+
 Aiqiyi01：判断题
 
 Aiqiyi02：排序

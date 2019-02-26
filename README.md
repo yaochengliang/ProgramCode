@@ -65,6 +65,8 @@ Aiqiyi02：排序
 
 Aiqiyi03：判断重复字符
 
+Aiqiyi04：字符串价值
+
 Tencent：数字转换机
 
 Beike01：斐波那契数列

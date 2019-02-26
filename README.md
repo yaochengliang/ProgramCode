@@ -61,6 +61,8 @@ Wangyi01：独立的小易
 
 Wangyi02：等差数列
 
+Wangyi03：01交错字符串
+
 Aiqiyi01：判断题
 
 Aiqiyi02：排序

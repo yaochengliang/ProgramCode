@@ -73,6 +73,8 @@ Pinduoduo01：最大乘积
 
 Pinduoduo02：大整数相乘
 
+Pinduoduo03：六一儿童节
+
 Huanjushidai01：判断重复字符串最大长度
 
 Tuniu01：判断两个字符串的最大相同长度

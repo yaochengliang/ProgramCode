@@ -63,6 +63,8 @@ Wangyi02：等差数列
 
 Wangyi03：01交错字符串
 
+Wangyi04：操作序列
+
 Aiqiyi01：判断题
 
 Aiqiyi02：排序

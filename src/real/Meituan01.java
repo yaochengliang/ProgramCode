@@ -1,5 +1,6 @@
 package real;
 
+import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -13,6 +14,10 @@ public class Meituan01 {
         int n = in.nextInt();
 
         TreeSet<String> treeSet = new TreeSet<>();
+
+        //自定义比较器
+//        TreeSet<String> treeSet = new TreeSet<>(new MyComparator());
+
         for (int i=0; i<n; i++){
             treeSet.add(in.next());
         }
@@ -25,5 +30,13 @@ public class Meituan01 {
         for (String str:treeSet) {
             System.out.println(str);
         }
+    }
+}
+
+class MyComparator implements Comparator<String>{
+
+    @Override
+    public int compare(String o1, String o2) {
+        return -o1.compareTo(o2);
     }
 }

@@ -39,6 +39,8 @@ StackMin：定义栈结构，找最小值
 
 NumArrayDuplicate：寻找数组中的重复数字
 
+TreeDepth：树的深度
+
 Leetcode
 
 MinTreeDepth:Given a binary tree, find its minimum depth.The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
